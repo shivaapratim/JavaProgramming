@@ -1,0 +1,28 @@
+JAVA BASICS
+
+
+
+JDK, JRE, JVM  
+
+Think of it like school:
+
+JDK = Teacher + Syllabus
+This is what YOU need to write and build Java programs. Has all the tools to create your code. Like a teacher who gives you everything to learn.
+
+JRE = Classroom
+The environment where your program runs. Has all the libraries and stuff needed to execute code. Like a classroom with all the facilities.
+
+JVM = Student Learning
+Actually runs your code and makes it work. Takes your bytecode and executes it. Like the student who actually does the learning.
+
+
+Class vs Object
+
+Class = Blueprint/Design
+Just a plan, not the real thing. Example: House design on paper. Defines what properties and behaviors something will have.
+
+Object = Actual Thing
+Real instance made from the blueprint. Example: The actual house built from that design. You can make many houses (objects) from one design (class).
+
+Think: Recipe (Class) vs Actual Cake (Object)
+Recipe tells you how to make it. Cake is what you actually get when you follow it. You can bake 10 cakes from 1 recipe.
