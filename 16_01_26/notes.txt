@@ -1,0 +1,25 @@
+Java Installation
+
+Step 1: Download JDK
+Go to Oracle website or search "download JDK". Get the latest version for your OS (Windows/Mac/Linux). Download the installer file.
+
+Step 2: Install it
+Run the installer. Just keep clicking next. It will install Java on your system. Remember where it installed (usually Program Files on Windows).
+
+Step 3: Set Environment Variables
+This is important. You need to tell your computer where Java is.
+
+For Windows:
+Search "environment variables" in start menu. Click "Environment Variables" button. Under System Variables, click "New". Variable name = JAVA_HOME. Variable value = path where JDK installed (like C:\Program Files\Java\jdk-17). Find "Path" variable, edit it, add new entry: %JAVA_HOME%\bin
+
+For Mac/Linux:
+Open terminal. Edit bash profile (nano ~/.bash_profile or ~/.zshrc). Add these lines:
+export JAVA_HOME=/path/to/your/jdk
+export PATH=$JAVA_HOME/bin:$PATH
+Save and run: source ~/.bash_profile
+
+Step 4: Verify Installation
+Open terminal or command prompt. Type: java -version
+If you see version info, you're done. If not, recheck environment variables.
+
+That's it. Java is ready to use.
