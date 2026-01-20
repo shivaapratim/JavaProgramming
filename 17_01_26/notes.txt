@@ -1,3 +1,4 @@
+
 Primitive vs Non-Primitive
 
 Primitive = Simple stuff
@@ -20,5 +21,25 @@ Stack = Quick notes board
 Stores method calls and primitive variables. Fast and organized. When method finishes, everything gets erased automatically. Small space. Works like a stack of plates, last in first out.
 
 Heap = Storage warehouse  
-Stores objects and arrays (non-primitive stuff). Bigger space. Things stay here until garbage collector cleans them up. All objects live here, stack just keeps their addresses.
- 
+Stores objects and arrays (non-primitive stuff). Bigger space. Things stay here until garbage collector manually cleans them up. All objects live here, stack just keeps their addresses.
+
+
+public static void main(String args[])
+
+Breaking down the main method:
+
+public = gives access to JVM
+JVM needs to see this method to run your program. If not public, JVM can't find it.
+
+static = so that object creation is not done
+JVM can call this without creating an object first. No need to do "new ClassName()" before running.
+
+void = returns nothing
+Main method doesn't give anything back. It just runs your code.
+
+main = function name
+This is the name JVM looks for. Has to be "main", nothing else works.
+
+String args[] = Command line arguments
+You can pass values when running program from terminal. Like: java MyProgram hello world
+Then args[0] = "hello", args[1] = "world"
