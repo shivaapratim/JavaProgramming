@@ -1,3 +1,8 @@
+LINK TO EXCEL SHEET - https://docs.google.com/spreadsheets/d/1Ra1b8A3oTn9xHPxCfygu60uBxff0OZLQPP7j4b0ODEs/edit?usp=sharing
+
+
+TECHNIQUES 
+
 Two Pointer Template PDF -> https://drive.google.com/file/d/1TUza7_ZQCVwM-n3GJ21HaZ7NqSryFaWC/view?usp=sharing
 
 Binary Search Template PDF -> https://drive.google.com/file/d/1SYq6Y0Jw8tagcb1NVk23lT47vdOv3iOf/view?usp=sharing
